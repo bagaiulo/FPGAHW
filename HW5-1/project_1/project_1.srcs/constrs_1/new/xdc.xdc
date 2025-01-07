@@ -1,0 +1,32 @@
+set_property IOSTANDARD LVCMOS25 [get_ports clock]
+set_property PACKAGE_PIN Y9 [get_ports clock]
+
+set_property -dict {PACKAGE_PIN H17 IOSTANDARD LVCMOS25} [get_ports {reset }]
+
+set_property -dict {PACKAGE_PIN T18 IOSTANDARD LVCMOS25} [get_ports {SQUARE1_up }]
+set_property -dict {PACKAGE_PIN P16 IOSTANDARD LVCMOS25} [get_ports {SQUARE1_down }]
+set_property -dict {PACKAGE_PIN N15 IOSTANDARD LVCMOS25} [get_ports {SQUARE2_up }]
+set_property -dict {PACKAGE_PIN R18 IOSTANDARD LVCMOS25} [get_ports {SQUARE2_down }]
+
+set_property -dict {PACKAGE_PIN T22 IOSTANDARD LVCMOS25} [get_ports { ledout[2] }]
+set_property -dict {PACKAGE_PIN T21 IOSTANDARD LVCMOS25} [get_ports { ledout[1] }]
+set_property -dict {PACKAGE_PIN U22 IOSTANDARD LVCMOS25} [get_ports { ledout[0] }]
+set_property -dict {PACKAGE_PIN H22 IOSTANDARD LVCMOS25} [get_ports { clocr_btn[2] }]
+set_property -dict {PACKAGE_PIN G22 IOSTANDARD LVCMOS25} [get_ports { clocr_btn[1] }]
+set_property -dict {PACKAGE_PIN F22 IOSTANDARD LVCMOS25} [get_ports { clocr_btn[0] }]
+
+set_property -dict {PACKAGE_PIN AB10 IOSTANDARD LVCMOS25} [get_ports {o_red[0]}]
+set_property -dict {PACKAGE_PIN AB9 IOSTANDARD LVCMOS25} [get_ports {o_red[1]}]
+set_property -dict {PACKAGE_PIN AA6 IOSTANDARD LVCMOS25} [get_ports {o_red[2]}]
+set_property -dict {PACKAGE_PIN Y11 IOSTANDARD LVCMOS25} [get_ports {o_red[3]}]
+set_property -dict {PACKAGE_PIN Y10 IOSTANDARD LVCMOS25} [get_ports {o_green[0]}]
+set_property -dict {PACKAGE_PIN AB6 IOSTANDARD LVCMOS25} [get_ports {o_green[1]}]
+set_property -dict {PACKAGE_PIN AA4 IOSTANDARD LVCMOS25} [get_ports {o_green[2]}]
+set_property -dict {PACKAGE_PIN R6 IOSTANDARD LVCMOS25} [get_ports {o_green[3]}]
+set_property -dict {PACKAGE_PIN T6 IOSTANDARD LVCMOS25} [get_ports {o_blue[0]}]
+set_property -dict {PACKAGE_PIN U4 IOSTANDARD LVCMOS25} [get_ports {o_blue[1]}]
+set_property -dict {PACKAGE_PIN AA11 IOSTANDARD LVCMOS25} [get_ports {o_blue[2]}]
+set_property -dict {PACKAGE_PIN AB11 IOSTANDARD LVCMOS25} [get_ports {o_blue[3]}]
+
+set_property -dict {PACKAGE_PIN AA7 IOSTANDARD LVCMOS25} [get_ports {o_vs}]
+set_property -dict {PACKAGE_PIN AB2 IOSTANDARD LVCMOS25} [get_ports {o_hs}]
